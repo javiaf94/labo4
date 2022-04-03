@@ -1,0 +1,8 @@
+numUno<br>
+<input type="number" [(ngModel)]="calc.edadUno">
+<br>numDos<br>
+<input type="number" [(ngModel)]="calc.edadDos">
+<br><input type="button" value="sumar" (click)="calc.calcularSuma()"><br>
+<input type="number" [(ngModel)]="calc.suma">
+<br><input type="button" value="promediar" (click)="calc.calcularPromedio()"><br>
+<input type="number" [value]="calc.promedio">
